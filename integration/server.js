@@ -7,6 +7,7 @@ var fs = require('fs')
 var path = require('path')
 var hapi = require('hapi')
 var inert = require('inert')
+var element = require('xml-element-string')
 
 var pcbStackup = require('../index')
 
@@ -29,12 +30,20 @@ server.route({
   }
 })
 
+function createElement(type, props, children) {
+  if (type === 'g' && props.transform === 'scale(25.4,25.4)') {
+    console.log(type, props)
+  }
+  return element(type, props, children)
+}
+
 server.route({
   method: 'POST',
   path: '/stackup',
   handler: function (request, reply) {
     var name = request.payload.name
     var options = request.payload.options
+    options.createElement = createElement
     var layers = request.payload.layers.map(function (layer) {
       var gerber = fs.createReadStream(layer.path)
       var type
