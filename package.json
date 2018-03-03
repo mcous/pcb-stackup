@@ -68,7 +68,7 @@
     "zuul-ngrok": "^4.0.0"
   },
   "dependencies": {
-    "gerber-to-svg": "^2.1.0",
+    "gerber-to-svg": "https://github.com/kasbah/gerber-to-svg#upgrade-parser",
     "pcb-stackup-core": "^3.0.0",
     "shortid": "^2.2.6",
     "whats-that-gerber": "git+https://github.com/tracespace/whats-that-gerber.git#fix-outline"
