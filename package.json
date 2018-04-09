@@ -62,7 +62,7 @@
     "proxyquireify": "^3.2.1",
     "sinon": "^4.5.0",
     "sinon-chai": "^3.0.0",
-    "standard": "^11.0.1",
+    "standard": "^8.6.0",
     "xhr": "^2.4.1",
     "zuul": "^3.11.1",
     "zuul-ngrok": "^4.0.0"
