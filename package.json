@@ -69,7 +69,7 @@
   },
   "dependencies": {
     "gerber-to-svg": "https://github.com/kasbah/gerber-to-svg#upgrade-parser",
-    "pcb-stackup-core": "^3.0.0",
+    "pcb-stackup-core": "https://github.com/tracespace/pcb-stackup-core#upgrade-deps",
     "shortid": "^2.2.8",
     "whats-that-gerber": "^3.0.0"
   }
