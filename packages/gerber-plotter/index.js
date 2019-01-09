@@ -1,7 +1,7 @@
 // gerber-plotter factory
 'use strict'
 
-var Plotter = require('./plotter')
+var Plotter = require('./lib/plotter')
 
 var verifyNota = function(nota) {
   if (nota === 'A' || nota === 'I') {

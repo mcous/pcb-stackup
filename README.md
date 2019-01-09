@@ -73,9 +73,9 @@ Arduino Uno design files used under the terms of the [Creative Commons Attributi
 
 ### tracespace in the wild
 
-* [viewer.tracespace.io][tracespace-viewer] - A Gerber viewer that lets you inspect the individual layers as well as the board preview
-* [kitspace.org][kitspace] - An electronics project sharing site with links to easily buy the required parts
-* [OpenHardware.io][openhardware] - A social site around open source hardware. Enables authors to sell and manufacture their boards.
+- [viewer.tracespace.io][tracespace-viewer] - A Gerber viewer that lets you inspect the individual layers as well as the board preview
+- [kitspace.org][kitspace] - An electronics project sharing site with links to easily buy the required parts
+- [OpenHardware.io][openhardware] - A social site around open source hardware. Enables authors to sell and manufacture their boards.
 
 [tracespace-viewer]: http://viewer.tracespace.io
 [kitspace]: https://kitspace.org
@@ -265,10 +265,10 @@ npm run lint
 
 Packages are published to npm by the CI server. To publish a release, you must have write access to the repository. There is a `bump` script in the `package.json` that will:
 
-* Run all tests
-* Write new version to `package.json` in updated packages
-* Generate / update the changelogs
-* Commit, tag, and push to git
+- Run all tests
+- Write new version to `package.json` in updated packages
+- Generate / update the changelogs
+- Commit, tag, and push to git
 
 ```shell
 # by default, bump to the next version as determined by conventional commits

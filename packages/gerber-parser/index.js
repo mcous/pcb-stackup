@@ -3,7 +3,7 @@
 
 var isFinite = require('lodash.isfinite')
 
-var Parser = require('./parser')
+var Parser = require('./lib/parser')
 
 var verifyPlaces = function(p) {
   if (

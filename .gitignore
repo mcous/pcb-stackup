@@ -5,3 +5,7 @@ coverage
 # artifacts
 bundle.*
 */**/LICENSE
+**/dist
+
+# keep www index.html in source control for now
+!apps/www/dist
